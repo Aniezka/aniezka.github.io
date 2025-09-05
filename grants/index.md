@@ -5,8 +5,6 @@ author_profile: true
 title: "Grants and Honors"
 ---
 
-# Grants and Honors 🏆
-
 <u>2025</u>: **Best Poster Award**, [EEML Summer School](https://www.eeml.eu/home)
 
 <u>2025</u>: **Fully Funded Grant** to attend [Eastern European Machine Learning Summer School (EEML)](https://www.eeml.eu/home), Sarajevo, Bosnia and Herzegovina
