@@ -35,13 +35,13 @@ Multilingual NLP, Fact-Checkig, AI Safety, LLMs Evaluation, Responsible AI
 
 **Awards & Recognition 🏆**
 
-<u>2025:</u> Best Paper Award + Fully funded grant, [EEML Summer School](https://www.eeml.eu/)
+<u>2025:</u> Best Poster Award + Fully funded grant, [EEML Summer School](https://www.eeml.eu/)
 
 <u>2024-2025:</u> Erasmus+ and Santander Scholarships, University of Groningen
 
 <u>2022-2024:</u> Erasmus Mundus Scholarship (15 selected from 600+ applications)
 
-<u>2024:</u> Attended leading NLP/ML summer schools [Athens NLP](https://athnlp.github.io/) and [LxMLS](http://lxmls.it.pt/2024/)
+<u>2024:</u> Attended leading NLP/ML summer schools [Athens NLP](https://athnlp.github.io/), [LxMLS](http://lxmls.it.pt/2024/), [ALPS](http://alps-2024.imag.fr/)
 
 **Languages 🌍**
 
