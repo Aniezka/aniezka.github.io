@@ -3,7 +3,7 @@ layout: single
 classes: wide
 author_profile: true
 ---
-✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨
+✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨
 
 Hi👋, I'm Hanna Shcharbakova, an ML Engineer & NLP Researcher interested in *multilingual NLP, fact-checking, explainability, responsible AI,* and *AI safety*. I recently completed my double MSc degree in [Erasmus Mundus European Masters Program in Language and Communication Technologies](https://lct-master.org/) at University of Saarland 🇩🇪 and University of Lorraine 🇫🇷, and had exchange studies at University of Groningen 🇳🇱.
 
