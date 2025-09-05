@@ -26,7 +26,5 @@ I obtained my BA in Fundamental and Computational Linguistics at HSE University 
 <u>2024-12:</u> 🇳🇱 Completed my **Dutch course at A2 level** at University of Groningen!<br><br>
 <u>2024-11:</u> 📊 Started working on a **SemEval shared task** at University of Groningen!<br><br>
 <u>2024-10:</u> 🤝 Partnered with a startup to improve AI-generated text detection for the community!<br><br>
-
 <u>2024-09:</u> 🎓 Started Erasmus+ exchange at **University of Groningen**, Netherlands. Grateful for the **Erasmus+ and Santander Scholarships** supporting this academic journey.<br><br>
-
 <u>2024-09:</u> 🏫 Attended [**Athens NLP Summer School**](https://athnlp.github.io/2024/) - amazing learning experiences!<br><br>
