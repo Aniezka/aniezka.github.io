@@ -3,7 +3,7 @@ layout: single
 classes: wide
 author_profile: true
 ---
-
+✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨
 Hi👋, I'm Hanna Shcharbakova, an ML Engineer & NLP Researcher interested in multilingual NLP, fact-checking, explainability, responsible AI, and AI safety. I recently completed my double MSc degree in [Erasmus Mundus European Masters Program in Language and Communication Technologies](https://lct-master.org/) at University of Saarland 🇩🇪 and University of Lorraine 🇫🇷, and had exchange studies at University of Groningen 🇳🇱.
 
 I obtained my BA in Fundamental and Computational Linguistics at HSE University where I worked in 2 research labs: the Learner Corpora Lab and Laboratory of Methods for Big Data Analysis. During my master's, I worked as an ML Engineer at [Transcrime](https://www.transcrime.it/en/) on EU-funded projects focusing on [fake news detection](https://fighting-fake-news.eu/), [illicit firearms trafficking](https://ceasefire-project.eu/), and [terrorist content identification online](https://www.alliesproject.com/).
