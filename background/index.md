@@ -5,7 +5,7 @@ author_profile: true
 title: "Background"
 ---
 
-**Education**
+**Education 👩‍🎓**
 
 <u>2022.09-2025.09:</u> [Language and Communication Technologies, Double M.Sc., Erasmus Mundus European Masters Program](https://lct-master.org/) (2.5% acceptance rate). University of Lorraine, Nancy, France (2022-2023) & Saarland University, Saarbrücken, Germany (2023-2025). Supervised by [Prof. Dr. Josef van Genabith](https://www.uni-saarland.de/lehrstuhl/genabith/van-genabith/cv.html): *Advancing Multilingual Fact Verification with LLMs and Data Augmentation*.
 
@@ -13,7 +13,7 @@ title: "Background"
 
 <u>2017.09-2021.08:</u> Fundamental and Computational Linguistics, B.A., Higher School of Economics, Moscow, Russia. Supervised by Dr. Olga Vinogradova: *Comparison of Text Complexity Evaluation Carried Out with Different Methods across Learner Texts in English*.
 
-**Jobs**
+**Jobs 👩‍💻**
 
 <u>2023.07-2025.01:</u> ML Engineer @ [Transcrime Joint Research Centre on Innovation and Crime](https://www.transcrime.it/en/), Università Cattolica del Sacro Cuore, Milan, Italy (remote).
  
