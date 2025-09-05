@@ -33,5 +33,5 @@ main:
   - title: "🏆 Grants and Honors"
     url: /grants/
 
-  - title: "📄 CV"
-    url: /cv/
+  # - title: "📄 CV"
+  #   url: /cv/
