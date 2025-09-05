@@ -7,7 +7,7 @@ title: "Background"
 
 **Education**
 
-<u>2022.09-2025.09:</u> Language and Communication Technologies, Double M.Sc., Erasmus Mundus European Masters Program (2.5% acceptance rate). University of Lorraine, Nancy, France (2022-2023) & Saarland University, Saarbrücken, Germany (2023-2025). Supervised by Prof. Dr. Josef van Genabith: *Advancing Multilingual Fact Verification with LLMs and Data Augmentation*.
+<u>2022.09-2025.09:</u> [Language and Communication Technologies, Double M.Sc., Erasmus Mundus European Masters Program](https://lct-master.org/) (2.5% acceptance rate). University of Lorraine, Nancy, France (2022-2023) & Saarland University, Saarbrücken, Germany (2023-2025). Supervised by [Prof. Dr. Josef van Genabith](https://www.uni-saarland.de/lehrstuhl/genabith/van-genabith/cv.html): *Advancing Multilingual Fact Verification with LLMs and Data Augmentation*.
 
 <u>2024.09-2025.01:</u> Language Science and Technology, Erasmus+ Exchange, University of Groningen, Groningen, Netherlands.
 
@@ -15,15 +15,15 @@ title: "Background"
 
 **Jobs**
 
-<u>2023.07-2025.01:</u> ML Engineer @ Transcrime Joint Research Centre on Innovation and Crime, Università Cattolica del Sacro Cuore, Milan, Italy (remote).
+<u>2023.07-2025.01:</u> ML Engineer @ [Transcrime Joint Research Centre on Innovation and Crime](https://www.transcrime.it/en/), Università Cattolica del Sacro Cuore, Milan, Italy (remote).
  
-* EU Horizon Europe FERMI Project: Fake news detection across multiple languages
-* EU Horizon Europe CEASEFIRE Project: Predictive modeling for illicit firearm trafficking
-* EU Horizon Europe ALLIES Project: Real-time terroristic content detection system deployed in 3 EU police departments
+* [EU Horizon, FERMI Project](https://fighting-fake-news.eu/): Fake news detection across multiple languages
+* [EU Horizon, CEASEFIRE Project](https://ceasefire-project.eu/): Predictive modeling for illicit firearm trafficking
+* [EU Internal Security Fund, ALLIES Project](https://home-affairs.ec.europa.eu/projects/allies_en): Real-time terroristic content detection system deployed in EU police departments
 
 <u>2019.09-2022.07:</u> NLP Researcher @ Higher School of Economics, Laboratory of Corpus Linguistics, Moscow, Russia.
-* Statistical analysis on large-scale text corpora (200+ linguistic features), predictive modelling based on ML. Supervised by Prof. Dr. Olga Lyashevskaya and Dr. Olga Vinogradova
-* Code4ML dataset creation: 2.5M annotated Python code snippets with novel ML taxonomy (80+ categories), classification and generation of code chunks. Supervised by Prof. Dr. Andrey Ustyuzhanin
+* Statistical analysis on large-scale text corpora (200+ linguistic features), predictive modelling based on ML. Supervised by [Prof. Dr. Olga Lyashevskaya](https://www.hse.ru/en/staff/olesar/) and Dr. Olga Vinogradova
+* Code4ML dataset creation: 2.5M annotated Python code snippets with novel ML taxonomy (80+ categories), classification and generation of code chunks. Supervised by [Prof. Dr. Andrey Ustyuzhanin](https://constructor.university/faculty-member/andrey-ustyuzhanin)
 
 **Research Focus & Impact 🔬**
 
@@ -35,13 +35,13 @@ Multilingual NLP, Fact-Checkig, AI Safety, LLMs Evaluation, Responsible AI
 
 **Awards & Recognition 🏆**
 
-<u>2025:</u> Best Paper Award + Fully funded grant, EEML Summer School
+<u>2025:</u> Best Paper Award + Fully funded grant, [EEML Summer School](https://www.eeml.eu/)
 
 <u>2024-2025:</u> Erasmus+ and Santander Scholarships, University of Groningen
 
 <u>2022-2024:</u> Erasmus Mundus Scholarship (15 selected from 600+ applications)
 
-<u>2024:</u> Attended leading NLP/ML summer schools Athens NLP and LxMLS
+<u>2024:</u> Attended leading NLP/ML summer schools [Athens NLP](https://athnlp.github.io/) and [LxMLS](http://lxmls.it.pt/2024/)
 
 **Languages 🌍**
 
