@@ -21,7 +21,7 @@ title: "Background"
 * [EU Horizon, CEASEFIRE Project](https://ceasefire-project.eu/): Predictive modeling for illicit firearm trafficking
 * [EU Internal Security Fund, ALLIES Project](https://home-affairs.ec.europa.eu/projects/allies_en): Real-time terroristic content detection system deployed in EU police departments
 
-<u>2019.09-2022.07:</u> NLP Researcher @ Higher School of Economics, Laboratory of Corpus Linguistics, Moscow, Russia.
+<u>2019.09-2022.07:</u> NLP Researcher @ Higher School of Economics, Laboratory of Corpus Linguistics and Laboratory of Methods for Big Data Analysis, Moscow, Russia.
 * Statistical analysis on large-scale text corpora (200+ linguistic features), predictive modelling based on ML. Supervised by [Prof. Dr. Olga Lyashevskaya](https://www.hse.ru/en/staff/olesar/) and Dr. Olga Vinogradova
 * Code4ML dataset creation: 2.5M annotated Python code snippets with novel ML taxonomy (80+ categories), classification and generation of code chunks. Supervised by [Prof. Dr. Andrey Ustyuzhanin](https://constructor.university/faculty-member/andrey-ustyuzhanin)
 
