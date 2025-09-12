@@ -13,7 +13,7 @@ I obtained my BA in Fundamental and Computational Linguistics at HSE University 
 
 ## News 📌
 
-<u>2025-08:</u> 🎓 Invited to the **EM LCT Summer School** to share my experience studying at this program with fellow students!<br><br>
+<u>2025-08:</u> 🎓 Invited to the **EM LCT Summer School** to share my experience studying at this program with LCT students!<br><br>
 <u>2025-08:</u> 💥 Delighted to share that *Cross-Lingual Fact Verification: Analyzing LLMs Performance Patterns Across Languages* accepted at [**RANLP 2025**](https://ranlp.org/ranlp2025/). See you in Bulgaria! 🇧🇬<br><br>
 <u>2025-07:</u> 🎓 Graduated from **University of Saarland** with an excellent grade of **1.5**!<br><br>
 <u>2025-07:</u> ✈️ Attended the [**ACL 2025**](https://2025.aclweb.org/) to present my research - incredible insights and networking opportunities!<br><br>
