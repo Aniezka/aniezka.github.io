@@ -146,9 +146,9 @@ social:
 
 # Analytics
 analytics:
-  provider               : "custom"
+  provider: "google-analytics-4" 
   google:
-    tracking_id          : "GTM-5W368KXP"
+    tracking_id: "G-HBDZTSYZZC" 
 
 
 # Reading Files
