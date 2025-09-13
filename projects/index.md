@@ -23,7 +23,9 @@ title: "Projects"
 > - [GitHub](https://github.com/polyankaglade/vkToxic)
 > 
 > **Date:** 2020
+> 
 ---
+
 > ### 🌍 Universal Dependencies - Belarusian Treebank Contributions
 > 
 > A computational linguistics project focused on developing and enhancing the Belarusian language treebank for the Universal Dependencies framework. This work involved creating high-quality syntactic annotations and morphological tags through automated processing followed by manual verification and correction to support NLP research for the Belarusian language.
