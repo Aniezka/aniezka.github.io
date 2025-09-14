@@ -5,6 +5,28 @@ author_profile: true
 title: "Projects"
 ---
 ---
+
+> ### 🚨 RuHateBe: Russian Hate Speech Benchmark for Dialogue Systems
+> 
+> Led development of the first Russian-language benchmark dataset for hate speech detection in dialogue systems. This research project created a comprehensive evaluation framework to assess the propensity of conversational AI models to generate inappropriate content, revealing systematic biases in state-of-the-art models and providing insights for responsible AI development.
+> 
+> **Key Features:**
+> - Novel benchmark dataset with 10,382 data points targeting 7 social groups (women, LGBTQ+, migrants, men, born place and skin color, children, others) identified based on Russian sociocultural context
+> - Automated toxicity filtering (probability >0.97) combined with morphological analysis for hate speech identification using 160+ identifiers per group
+> - Comprehensive evaluation of state-of-the-art Russian dialogue models (RuBERT, Conversational RuBERT, RuGPT3 Large/XL)
+> - Systematic bias detection revealing GPT-3 models choosing toxic responses ~40% of the time across all target groups
+> - First study examining Russian dialogue models for hate speech toward specific social groups
+> - Multi-source data collection from toxic forums (ProDota, Dvach) and everyday communication (Open Subtitles, Fiction corpus)
+> 
+> **Technologies:** Python, PyTorch, re, pandas, pymorphy2, numpy, transformers, NLTK, Beautiful Soup, API integration, matplotlib
+> 
+> **Links:**
+> - [GitHub Repository](https://github.com/Aniezka/hatespeech-russian)
+> 
+> **Date:** 2022
+> 
+---
+
 > ### 💬 VKontakte Sentiment Analysis Tool
 > 
 > A Python3 library for sentiment analysis of comments from toxic and non-toxic VKontakte communities. The project addresses the gap in existing solutions by combining automated comment collection with sentiment analysis specifically optimized for highly toxic or non-toxic communities. Designed for VK community administrators and researchers who need automated sentiment monitoring.
@@ -17,7 +39,7 @@ title: "Projects"
 > - 192 preprocessing variants with comprehensive text normalization
 > - Best configuration: 0.78 F1-score (vs. Dostoevsky baseline: 0.55 F1)
 > 
-> **Technologies:** Python3, scikit-learn, pymorphy2, TF-IDF, XGBoost, SGDClassifier, LogisticRegression, RandomForestClassifier, MultinomialNB
+> **Technologies:** Python, scikit-learn, pymorphy2, TF-IDF, XGBoost, SGDClassifier, LogisticRegression, RandomForestClassifier, MultinomialNB
 > 
 > **Links:**
 > - [GitHub](https://github.com/polyankaglade/vkToxic)
