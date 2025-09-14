@@ -26,6 +26,21 @@ title: "Projects"
 > 
 ---
 
+> ### 🎭 Russian SuperGLUE: Metaphor-Based Diagnostic Tasks
+> 
+> Development of linguistic test methodology and diagnostic tasks for evaluating NLP models on Russian language understanding. Following the Russian SuperGLUE benchmark approach, this project created specialized diagnostic tasks based on Russian metaphors, providing researchers with data to assess model comprehension of figurative language and semantic relationships.
+> 
+> **Key Features:**
+> - Linguistic markup and annotation methodology design
+> - Diagnostic tasks specifically targeting Russian metaphor comprehension
+> - Contribution to Russian language NLP evaluation standards
+> 
+> **Technologies:** Linguistic annotation tools
+> 
+> **Date:** 2020
+> 
+---
+
 > ### 🌍 Universal Dependencies - Belarusian Treebank Contributions
 > 
 > A computational linguistics project focused on developing and enhancing the Belarusian language treebank for the Universal Dependencies framework. This work involved creating high-quality syntactic annotations and morphological tags through automated processing followed by manual verification and correction to support NLP research for the Belarusian language.
