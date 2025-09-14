@@ -20,8 +20,7 @@ title: "Projects"
 > 
 > **Technologies:** Python, PyTorch, re, pandas, pymorphy2, numpy, transformers, NLTK, Beautiful Soup, API integration, matplotlib
 > 
-> **Links:**
-> - [GitHub Repository](https://github.com/Aniezka/hatespeech-russian)
+> **Links:** [GitHub](https://github.com/Aniezka/hatespeech-russian)
 > 
 > **Date:** 2022
 > 
@@ -41,8 +40,7 @@ title: "Projects"
 > 
 > **Technologies:** Python, scikit-learn, pymorphy2, TF-IDF, XGBoost, SGDClassifier, LogisticRegression, RandomForestClassifier, MultinomialNB
 > 
-> **Links:**
-> - [GitHub](https://github.com/polyankaglade/vkToxic)
+> **Links:** [GitHub](https://github.com/polyankaglade/vkToxic)
 > 
 > **Date:** 2020
 > 
@@ -75,8 +73,7 @@ title: "Projects"
 > 
 > **Technologies:** UDPipe, Mystem, Arborator
 > 
-> **Links:**
-> - [Universal Dependencies Project](https://universaldependencies.org/)
+> **Links:** [Universal Dependencies Project](https://universaldependencies.org/)
 > 
 > **Date:** 2017-2018
 > 
