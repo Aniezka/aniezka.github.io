@@ -5,14 +5,19 @@ author_profile: true
 ---
 ✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨
 
-Hi👋, I'm Hanna Shcharbakova, an ML Engineer & NLP Researcher interested in *multilingual NLP, fact-checking, explainability, responsible AI,* and *AI safety*. I recently completed my double MSc degree in [Erasmus Mundus European Masters Program in Language and Communication Technologies](https://lct-master.org/) at University of Saarland 🇩🇪 and University of Lorraine 🇫🇷, and had exchange studies at University of Groningen 🇳🇱.
+Hi👋, I'm Hanna Shcharbakova, a Senior AI Engineer at [Pleias](https://pleias.fr/) interested in *multilingual NLP, disinformation, responsible AI,* and *AI safety (especially evals & gradual disempowerment)*. 
 
-I obtained my BA in Fundamental and Computational Linguistics at HSE University where I worked in 2 research labs: the Learner Corpora Lab and Laboratory of Methods for Big Data Analysis. During my master's, I worked as an ML Engineer at [Transcrime](https://www.transcrime.it/en/) on EU-funded projects focusing on [fake news detection](https://fighting-fake-news.eu/), [illicit firearms trafficking](https://ceasefire-project.eu/), and [terrorist content identification online](https://www.alliesproject.com/).
+I hold a double MSc degree from the [Erasmus Mundus European Masters Program in Language and Communication Technologies](https://lct-master.org/) at University of Saarland 🇩🇪 and University of Lorraine 🇫🇷, with exchange studies at University of Groningen 🇳🇱.
 
-🚨 **I'm actively looking for PhD and job opportunities!** 🚨
+I obtained my BA in Fundamental and Computational Linguistics at HSE University where I worked in 2 research labs: the Learner Corpora Lab and Laboratory of Methods for Big Data Analysis. 
+
+During my master's, I worked as an ML Engineer at [Transcrime](https://www.transcrime.it/en/) on EU-funded projects focusing on [fake news detection](https://fighting-fake-news.eu/), [illicit firearms trafficking](https://ceasefire-project.eu/), and [terrorist content identification online](https://www.alliesproject.com/).
 
 ## News 📌
 
+<u>2026-02:</u> 📜 Completed the **Technical AI Safety Course** from [**BlueDot Impact**](https://www.bluedot.org/) - deepening my expertise in AI safety!<br><br>
+<u>2025-12:</u> 🎉 Joined [**Pleias**](https://pleias.fr/) as a **Senior AI Engineer**! Working on open science projects with focus on synthetic data and small language models, and leading AI-enhanced digital learning initiatives for Senegal.<br><br>
+<u>2025-11:</u> 📚 Completed the **Introductory EA Program** - exploring effective altruism principles!<br><br>
 <u>2025-08:</u> 🎓 Invited to the **EM LCT Summer School** to share my experience studying at this program with LCT students!<br><br>
 <u>2025-08:</u> 💥 Delighted to share that *Cross-Lingual Fact Verification: Analyzing LLMs Performance Patterns Across Languages* accepted at [**RANLP 2025**](https://ranlp.org/ranlp2025/). See you in Bulgaria! 🇧🇬<br><br>
 <u>2025-07:</u> 🎓 Graduated from **University of Saarland** with an excellent grade of **1.5**!<br><br>
