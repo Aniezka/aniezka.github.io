@@ -15,6 +15,10 @@ title: "Background"
 
 **Jobs 👩‍💻**
 
+<u>2025.12-present:</u> Senior AI Engineer @ [Pleias](https://pleias.fr/), France.
+* Open science projects with focus on synthetic data and small language models
+* Leading AI-enhanced digital learning initiatives for Senegal
+
 <u>2023.07-2025.01:</u> ML Engineer @ [Transcrime Joint Research Centre on Innovation and Crime](https://www.transcrime.it/en/), Università Cattolica del Sacro Cuore, Milan, Italy (remote).
  
 * [EU Horizon, FERMI Project](https://fighting-fake-news.eu/): Fake news detection across multiple languages
@@ -34,6 +38,10 @@ Multilingual NLP, Fact-Checkig, AI Safety, LLMs Evaluation, Responsible AI
 * **Real-world deployment**: Terrorism detection system used by EU law enforcement
 
 **Awards & Recognition 🏆**
+
+<u>2026:</u> Technical AI Safety Course, [BlueDot Impact](https://www.bluedot.org/)
+
+<u>2025:</u> Introductory EA Program
 
 <u>2025:</u> Best Poster Award + Fully funded grant, [EEML Summer School](https://www.eeml.eu/)
 
