@@ -5,13 +5,13 @@ author_profile: true
 ---
 ✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨
 
-Hi👋, I'm Hanna Shcharbakova, a Senior AI Engineer at [Pleias](https://pleias.fr/), working on open science and AI-enhanced digital education projects with a focus on synthethic data generation and small language models pretrataining. I am interested in *multilingual NLP, disinformation, responsible AI,* and *AI safety (especially evals & gradual disempowerment)*. 
+Hi👋, I'm Hanna Shcharbakova, a Senior AI Engineer at [Pleias](https://pleias.fr/), working on open science and leading AI-enhanced digital education projects with a focus on synthethic data generation and small language models pretrataining. I am interested in *multilingual NLP, disinformation, responsible AI,* and *AI safety (especially evals & gradual disempowerment)*. 
 
 I hold a double MSc degree from the [Erasmus Mundus European Masters Program in Language and Communication Technologies](https://lct-master.org/) at University of Saarland 🇩🇪 and University of Lorraine 🇫🇷, with exchange studies at University of Groningen 🇳🇱.
 
-I obtained my BA in Fundamental and Computational Linguistics at HSE University where I worked in 2 research labs: the Learner Corpora Lab and Laboratory of Methods for Big Data Analysis. 
-
 During my master's, I worked as an ML Engineer at [Transcrime](https://www.transcrime.it/en/) on EU-funded projects focusing on [fake news detection](https://fighting-fake-news.eu/), [illicit firearms trafficking](https://ceasefire-project.eu/), and [terrorist content identification online](https://www.alliesproject.com/).
+
+I obtained my BA in Fundamental and Computational Linguistics at HSE University where I worked in 2 research labs: the Learner Corpora Lab and Laboratory of Methods for Big Data Analysis. 
 
 ## News 📌
 
