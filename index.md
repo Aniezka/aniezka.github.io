@@ -5,7 +5,7 @@ author_profile: true
 ---
 ✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨
 
-Hi👋, I'm Hanna Shcharbakova, a Senior AI Engineer at [Pleias](https://pleias.fr/), working on open science and AI-enhanced digital education though synthethic data generation and small language model pretrataining. I am interested in *multilingual NLP, disinformation, responsible AI,* and *AI safety (especially evals & gradual disempowerment)*. 
+Hi👋, I'm Hanna Shcharbakova, a Senior AI Engineer at [Pleias](https://pleias.fr/), working on open science and AI-enhanced digital education projects with a focus on synthethic data generation and small language models pretrataining. I am interested in *multilingual NLP, disinformation, responsible AI,* and *AI safety (especially evals & gradual disempowerment)*. 
 
 I hold a double MSc degree from the [Erasmus Mundus European Masters Program in Language and Communication Technologies](https://lct-master.org/) at University of Saarland 🇩🇪 and University of Lorraine 🇫🇷, with exchange studies at University of Groningen 🇳🇱.
 
