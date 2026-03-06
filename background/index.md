@@ -39,10 +39,6 @@ Multilingual NLP, Disinfromation, AI Safety, Responsible AI
 
 **Awards & Recognition 🏆**
 
-<u>2026:</u> Technical AI Safety Course, [BlueDot Impact](https://www.bluedot.org/)
-
-<u>2025:</u> Introductory EA Program
-
 <u>2025:</u> Best Poster Award + Fully funded grant, [EEML Summer School](https://www.eeml.eu/)
 
 <u>2024-2025:</u> Erasmus+ and Santander Scholarships, University of Groningen
