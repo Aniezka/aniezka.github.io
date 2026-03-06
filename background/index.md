@@ -31,7 +31,7 @@ title: "Background"
 
 **Research Focus & Impact 🔬**
 
-Multilingual NLP, Fact-Checkig, AI Safety, LLMs Evaluation, Responsible AI
+Multilingual NLP, Disinfromation, AI Safety, Responsible AI
 * **8 peer-reviewed publications** at ACL, RANLP, SemEval, PeerJ Computer Science
 * **State-of-the-art results**: 57.7% macro-F1 in multilingual fact verification (15.8% improvement)
 * **First benchmarks**: Russian hate speech detection in dialogues, Russian AI-generated text detection
