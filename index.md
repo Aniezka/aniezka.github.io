@@ -17,7 +17,6 @@ I obtained my BA in Fundamental and Computational Linguistics at HSE University 
 
 <u>2026-02:</u> 📜 Completed the **Technical AI Safety Course** from [**BlueDot Impact**](https://www.bluedot.org/) - deepening my expertise in AI safety!<br><br>
 <u>2025-12:</u> 🎉 Joined [**Pleias**](https://pleias.fr/) as a **Senior AI Engineer**! Working on open science projects with focus on synthetic data and small language models, and leading AI-enhanced digital learning initiatives for Senegal.<br><br>
-<u>2025-11:</u> 📚 Completed the **Introductory EA Program**!<br><br>
 <u>2025-08:</u> 🎓 Invited to the **EM LCT Summer School** to share my experience studying at this program with LCT students!<br><br>
 <u>2025-08:</u> 💥 Delighted to share that *Cross-Lingual Fact Verification: Analyzing LLMs Performance Patterns Across Languages* accepted at [**RANLP 2025**](https://ranlp.org/ranlp2025/). See you in Bulgaria! 🇧🇬<br><br>
 <u>2025-07:</u> 🎓 Graduated from **University of Saarland** with an excellent grade of **1.5**!<br><br>
