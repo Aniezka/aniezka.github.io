@@ -1,0 +1,696 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Not found · Hanna Shcharbakova</title>
+<meta name="description" content="Hanna Shcharbakova, ELLIS &amp; MCML PhD researcher at the Technical University of Munich and the University of Cambridge. Uncertainty quantification, low-resource languages and multilinguality, moral reasoning.">
+<link rel="canonical" href="https://aniezka.github.io/404.html">
+<meta name="robots" content="noindex">
+<link rel="icon" href="/assets/favicon.svg" type="image/svg+xml">
+<link rel="icon" href="/assets/favicon-32.png" sizes="32x32" type="image/png">
+<link rel="apple-touch-icon" href="/assets/apple-touch-icon.png">
+<meta name="theme-color" content="#F6F5F1">
+<meta property="og:type" content="profile">
+<meta property="og:site_name" content="Hanna Shcharbakova">
+<meta property="og:title" content="Not found · Hanna Shcharbakova">
+<meta property="og:description" content="This page does not exist.">
+<meta property="og:url" content="https://aniezka.github.io/404.html">
+<meta property="og:image" content="https://aniezka.github.io/assets/og-image.png">
+<meta property="og:image:type" content="image/png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="A field of pale pastel squares from Conway's Game of Life beside the name Hanna Shcharbakova and the lines ELLIS and MCML PhD Researcher, TU Munich and Cambridge.">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:image" content="https://aniezka.github.io/assets/og-image.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400;0,500;0,600;1,400;1,500&family=Work+Sans:ital,wght@0,300;0,400;0,500;0,600;1,400&family=Fragment+Mono:ital@0;1&display=swap" rel="stylesheet">
+<style>
+/* ==================================================================== *
+   LIVING GROUND — the design system, unchanged from n1-home.html.
+
+   The page is a stack of solid sheets laid on a field of drifting
+   pixels — Conway's Game of Life on a coarse pastel grid. The sheets
+   mask the field; it shows in the margins and in the gaps between
+   sections, which is what keeps every line of text on a known ground.
+
+   Palette after hanseungwook.github.io/blog/nca-pre-pre-training.
+   Pastels are ornament: the field, card tints, borders. Never text.
+   Every text colour below is measured against its own ground, WCAG 2.1:
+     --text     #1A1A2E on --bg  15.64:1   on white 17.06:1
+     --muted    #6B6880 on --bg   4.91:1   on white  5.36:1
+     --link     #0A7A8A on --bg   4.62:1   on white  5.04:1
+     --green    #3D7A0A on --bg   4.83:1   on mint   4.98:1
+     --amber    #9A5C12 on --bg   4.92:1   on white  5.37:1
+     --ph       #9B4A55 on --bg   5.49:1   on white  5.99:1
+   The reference's #B87020 amber measures 3.58:1 — below AA for body
+   text — so it is kept as --brass, for rules only, and the text amber
+   is darkened to #9A5C12. Card tints hold ≥4.9:1 for --muted.
+
+   WHY THE SHEETS ARE OPAQUE. Over a live square the sums do not work.
+   Composited on --bg at the 0.56 alpha the field uses, --muted lands
+   between 3.78:1 (lilac) and 4.45:1 (butter) — all short of AA. Nor is
+   it a matter of turning the squares down: the worst case is still
+   4.08:1 at alpha 0.40, 4.28:1 at 0.30 and 4.47:1 at 0.20, and only
+   reaches AA at 0.15, by which point the field is the invisible thing
+   we were trying not to build. (--text is fine throughout, ≥12:1; it is
+   the secondary grey that cannot hold.) So no text is ever set over the
+   field: the sheets are solid --bg, the squares live in the margins and
+   the vents, and every ratio above is the ratio that actually applies.
+
+   Six pages share this block verbatim — home, interests, papers,
+   projects, experience, contact. Everything after the SHARED SYSTEM
+   ENDS marker is specific to this page.
+ * ==================================================================== */
+
+:root{
+  --bg:#F6F5F1;
+  --card:#FFFFFF;
+  --card-hover:#F0EFEB;
+  --text:#1A1A2E;
+  --muted:#6B6880;
+  --border:#DDD8D0;
+  --hair:#E9E5DE;
+
+  --link:#0A7A8A;
+  --green:#3D7A0A;
+  --amber:#9A5C12;
+  --brass:#B87020;      /* ornament only — 3.58:1 */
+  --ph:#9B4A55;
+
+  --mint:#A9D8C0;  --sky:#A9D3E8;   --lilac:#C9BBE8;  --peach:#F2C9A8;
+  --rose:#EFB8C0;  --butter:#F0E2A8; --sage:#BCD9A9;  --peri:#B4BEE8;
+  --t-mint:#F4FAF6; --t-sky:#F3F8FC; --t-lilac:#F7F4FC; --t-peach:#FDF6F0;
+  --t-rose:#FCF3F5; --t-butter:#FCF9EC;
+
+  --serif:'EB Garamond',Georgia,'Times New Roman',serif;
+  --sans:'Work Sans',system-ui,-apple-system,sans-serif;
+  --mono:'Fragment Mono',ui-monospace,SFMono-Regular,monospace;
+
+  --sheet:880px;
+  --vent:22px;          /* the gap the field shows through — two cells */
+  --pad:clamp(22px,4.4vw,52px);
+  --hpad:clamp(20px,3.2vw,40px);   /* the hero's own, narrower, gutter */
+}
+
+*,*::before,*::after{box-sizing:border-box}
+html{-webkit-text-size-adjust:100%;scroll-behavior:smooth}
+body{
+  margin:0; background:var(--bg); color:var(--text);
+  font-family:var(--sans); font-weight:400; font-size:17px; line-height:1.68;
+  -webkit-font-smoothing:antialiased; overflow-x:hidden;
+}
+a{color:inherit}
+::selection{background:#DCEEF2}
+:focus-visible{outline:2px solid var(--link);outline-offset:3px;border-radius:2px}
+
+/* the field itself */
+#life{position:fixed;inset:0;z-index:0;pointer-events:none;display:block}
+
+.skip{position:absolute;left:-9999px;top:0;z-index:99;background:var(--text);color:var(--bg);
+  font-family:var(--mono);font-size:.8rem;padding:10px 16px;text-decoration:none}
+.skip:focus{left:12px;top:12px}
+
+/* ---------------------------------------------------------------- nav */
+/* solid, not translucent: mono at 11px cannot sit over live squares.
+   Six items, the same six on every page. Below 560px the wordmark is
+   dropped rather than letting the nav scroll off — its job, going home,
+   is the first item anyway. Six labels measure ~390px, which is wider
+   than a 390px viewport's content box, so below 560px the row is also
+   allowed to wrap onto a second line and the type comes down half a
+   point. Wrapping, not scrolling: a hidden scrollbar on a phone hides
+   whichever item falls off the end, and CONTACT is the item it would
+   have been. */
+.bar{position:sticky;top:0;z-index:40;background:var(--bg);border-bottom:1px solid var(--hair)}
+.bar-in{max-width:var(--sheet);margin:0 auto;padding:0 var(--pad);height:56px;
+  display:flex;align-items:center;justify-content:space-between;gap:16px}
+.bar-name{font-family:var(--serif);font-size:19px;letter-spacing:.005em;white-space:nowrap;
+  text-decoration:none}
+/* the 8px/6px padding is not decoration: a scroll container clips at its
+   padding box, and without it the 2px focus ring at 3px offset was being
+   sliced off the nav links. The negative margin gives back the space so
+   nothing moves. */
+.bar-nav{display:flex;gap:clamp(12px,2.4vw,24px);font-family:var(--mono);font-size:11px;
+  letter-spacing:.08em;text-transform:uppercase;color:var(--muted);overflow-x:auto;
+  padding:8px 6px;margin:0 -6px;
+  scrollbar-width:none;-ms-overflow-style:none}
+.bar-nav::-webkit-scrollbar{display:none}
+.bar-nav a{text-decoration:none;white-space:nowrap;padding:4px 0;border-bottom:1px solid transparent;transition:.18s}
+.bar-nav a:hover{color:var(--link);border-bottom-color:var(--mint)}
+.bar-nav a.on{color:var(--amber);border-bottom-color:var(--brass)}
+/* The nav row wraps rather than scrolls: .bar-nav hides its scrollbar, so a
+   row that overflows silently truncates the last item with no affordance.
+   With the longer "Additional Projects" label the single-line row stops
+   fitting at 680px, so the wrap threshold sits above that, not at 560. */
+@media(max-width:700px){
+  .bar-in{height:auto;padding-top:9px;padding-bottom:9px}
+  .bar-nav{flex-wrap:wrap;overflow-x:visible;gap:8px 10px;font-size:10.5px;letter-spacing:.06em}
+}
+@media(max-width:640px){
+  .bar-name{font-size:16px}
+}
+@media(max-width:560px){
+  .bar-name{display:none}
+}
+
+/* -------------------------------------------------------- the sheets */
+main{position:relative;z-index:2;padding:var(--vent) 0 0}
+.sheet{
+  background:var(--bg);
+  max-width:min(var(--sheet), calc(100% - 28px));
+  margin:0 auto var(--vent);
+  padding:clamp(30px,5vw,58px) var(--pad);
+}
+.sheet.tight{padding-top:clamp(22px,3.4vw,34px);padding-bottom:clamp(22px,3.4vw,34px)}
+.prose{max-width:63ch;color:var(--text)}
+.prose b{font-weight:500}
+.prose a,.para a{color:var(--link);text-decoration:none;
+  border-bottom:1px solid rgba(10,122,138,.32);transition:.18s}
+.prose a:hover,.para a:hover{border-bottom-color:var(--link);background:var(--t-sky)}
+.para{margin:0;font-size:17px;line-height:1.72;max-width:62ch}
+.para + .para{margin-top:15px}
+.para b{font-weight:500}
+
+/* the band sets width only — it paints nothing */
+.band{max-width:min(var(--sheet), calc(100% - 28px));margin:0 auto var(--vent)}
+
+/* page headings */
+h1{margin:0;font-family:var(--serif);font-weight:400;line-height:1.02;
+  letter-spacing:-.012em;font-size:clamp(2.5rem,8.4vw,4.4rem)}
+.eyebrow{margin:0 0 20px;font-family:var(--mono);font-size:11.5px;letter-spacing:.17em;
+  text-transform:uppercase;color:var(--amber)}
+.lede{margin:26px 0 0;max-width:34ch;font-family:var(--serif);font-size:clamp(1.35rem,3.2vw,1.85rem);
+  line-height:1.32;color:var(--text)}
+.lede em{font-style:italic;color:var(--amber)}
+
+.sec-head{display:flex;align-items:baseline;gap:14px;margin:0 0 26px;flex-wrap:wrap}
+.sec-head h2{margin:0;font-family:var(--serif);font-weight:400;
+  font-size:clamp(2rem,5vw,2.7rem);line-height:1.05;letter-spacing:-.008em}
+.sec-head .lab{margin:0;margin-left:auto;font-family:var(--mono);font-size:11px;
+  letter-spacing:.08em;text-transform:uppercase;color:var(--muted)}
+
+/* the unfilled placeholders — visible on purpose, everywhere */
+.ph{font-family:var(--mono);font-size:13px;color:var(--ph);background:#FBF1F2;
+  border-bottom:1px dashed var(--ph);padding:1px 4px;margin:0 -2px;white-space:nowrap}
+
+/* the pastel card — the recurring device. A 4px pastel left border and
+   the matching tint, one hue per item, cycled in a fixed order so the
+   same position means the same colour on every page. */
+.cards{display:grid;grid-template-columns:1fr;gap:12px}
+.card-item{background:var(--card);border:1px solid var(--border);
+  border-left:4px solid var(--mint);background:var(--t-mint);
+  padding:20px clamp(16px,2.4vw,22px) 22px;transition:background .18s,border-color .18s}
+.c2{border-left-color:var(--peach);background:var(--t-peach)}
+.c3{border-left-color:var(--peri);background:var(--t-sky)}
+.c4{border-left-color:var(--lilac);background:var(--t-lilac)}
+.c5{border-left-color:var(--rose);background:var(--t-rose)}
+.c6{border-left-color:var(--butter);background:var(--t-butter)}
+
+/* research themes — the pastel card at its smallest */
+.themes{margin-top:8px}
+@media(min-width:640px){.themes{grid-template-columns:1fr 1fr}}
+.themes h3{margin:0 0 7px;font-family:var(--serif);font-weight:400;font-size:22px;line-height:1.18}
+.themes p{margin:0;font-size:15px;line-height:1.6;color:var(--muted)}
+
+/* publications */
+.pub{background:var(--card);border:1px solid var(--border);border-left:4px solid var(--sky);
+  padding:22px 22px 24px;margin-bottom:14px;transition:background .18s,border-color .18s}
+.pub:hover{background:var(--card-hover)}
+.pub:nth-of-type(2){border-left-color:var(--lilac)}
+.pub h3{margin:0 0 10px;font-family:var(--serif);font-weight:400;font-size:clamp(1.22rem,2.8vw,1.5rem);
+  line-height:1.22;font-style:italic}
+.authors{margin:0 0 13px;font-size:14.5px;color:var(--muted)}
+.authors b{color:var(--text);font-weight:500}
+.meta{display:flex;flex-wrap:wrap;gap:7px;align-items:center}
+.venue{font-family:var(--mono);font-size:10.5px;letter-spacing:.05em;padding:5px 9px;
+  background:var(--t-butter);border:1px solid var(--butter);color:var(--amber)}
+.meta a{font-family:var(--mono);font-size:10.5px;letter-spacing:.05em;padding:5px 9px;
+  border:1px solid var(--border);color:var(--link);text-decoration:none;transition:.18s}
+.meta a:hover{border-color:var(--sky);background:var(--t-sky)}
+.finding{margin:15px 0 0;font-size:15px;line-height:1.6;color:var(--muted);
+  padding-left:14px;border-left:2px solid var(--mint)}
+.finding b{color:var(--text);font-weight:500}
+.more{display:inline-block;margin-top:8px;font-family:var(--mono);font-size:11.5px;
+  letter-spacing:.09em;text-transform:uppercase;color:var(--amber);text-decoration:none;
+  border-bottom:1px solid var(--brass);padding:1px 0 3px;transition:.18s}
+.more:hover{background:var(--t-butter)}
+
+/* contact buttons */
+.links{display:flex;flex-wrap:wrap;gap:8px;margin-top:28px}
+.links a{font-family:var(--mono);font-size:11.5px;letter-spacing:.06em;text-transform:uppercase;
+  text-decoration:none;color:var(--link);background:var(--card);
+  border:1px solid var(--border);padding:9px 14px;transition:.18s}
+.links a:hover{background:var(--t-sky);border-color:var(--sky);color:var(--link)}
+
+/* the count chips under a page heading */
+.counts{display:flex;flex-wrap:wrap;gap:8px;margin-top:26px}
+.counts span{font-family:var(--mono);font-size:11px;letter-spacing:.07em;text-transform:uppercase;
+  padding:7px 12px;border:1px solid var(--border);background:var(--card);color:var(--muted)}
+.counts span b{color:var(--text);font-weight:500}
+.counts span:first-child{background:var(--t-butter);border-color:var(--butter);color:var(--amber)}
+.counts span:first-child b{color:var(--amber)}
+/* --green #3D7A0A on --t-mint = 4.98:1 */
+.counts span:nth-child(2){background:var(--t-mint);border-color:var(--mint);color:var(--green)}
+.counts span:nth-child(2) b{color:var(--green)}
+
+/* footer */
+.colophon{margin:0 0 16px;max-width:64ch;font-size:13.5px;line-height:1.62;color:var(--muted)}
+.colophon b{color:var(--text);font-weight:500}
+.sig{margin:0;display:flex;flex-wrap:wrap;gap:8px 20px;font-family:var(--mono);font-size:10.5px;
+  letter-spacing:.09em;text-transform:uppercase;color:var(--muted)}
+.backhome{padding-top:6px}
+
+@media(prefers-reduced-motion:reduce){
+  html{scroll-behavior:auto}
+  *,*::before,*::after{animation:none!important;transition:none!important}
+}
+
+/* ==================================== SHARED SYSTEM ENDS — home below */
+
+/* ---------------------------------------------------------- the hero *
+   Variant C — prose with a mono facts card beside it — rearranged so
+   the portrait is on the LEFT and its top edge sits on the first line
+   of prose, not on the heading.
+
+   The greeting therefore gets its own full-width block; the row beneath
+   it is photo-then-card in the left column and prose in the right. The
+   alignment is done with padding rather than a nudge: the greeting
+   block carries the whole gap as its bottom padding, the row has no
+   row-gap, and neither column has a top padding. So the photo's top
+   edge and the prose's first line box both start exactly at the row's
+   top edge, whatever the type scale does at a given width.
+
+   The ground follows n1's hero rule — the text sheets are solid, the
+   photo is left bare because it is opaque already. The greeting sheet
+   spans the full band and the prose sheet continues it down the right,
+   so the solid ground is one ⌐ and the field shows in the 32px channel
+   between the columns, under the card, and under the prose.
+
+   That last one is deliberate. The photo and the card together run
+   about 820px; the prose runs about 470. Stretching the prose sheet to
+   match left 388px of blank paper under the last line, which reads as a
+   fault. Ending the sheet where the prose ends hands the same 388px to
+   the field, where it is continuous with the right margin and reads as
+   the ground the page is laid on — which is what it is.
+
+   Under 820px the column falls apart and the card goes BELOW the prose
+   — the reader has not read the prose yet, so the reference copy should
+   not come first — while the photo stays up under the greeting. */
+.hero{display:grid;grid-template-columns:1fr}
+.hero-head{background:var(--bg);padding:clamp(30px,5vw,54px) var(--hpad) clamp(24px,3.6vw,32px)}
+.hero-head h1{font-size:clamp(2.1rem,5.4vw,3.2rem);line-height:1.08}
+/* display:contents lets the prose sit between the aside's two children */
+.hero-aside{display:contents}
+.hero-photo{order:1;margin:var(--vent) 0 0}
+.hero-body{order:2;background:var(--bg);margin-top:var(--vent);
+  padding:clamp(26px,4vw,32px) var(--hpad) clamp(30px,5vw,54px)}
+.card-list{order:3;margin-top:var(--vent)}
+
+.portrait{display:block;width:100%;max-width:150px;aspect-ratio:1/1.2;object-fit:cover;
+  object-position:50% 15%;border:1px solid var(--border);background:var(--card);
+  filter:saturate(.88) contrast(1.02)}
+/* the one caption that sits on bare field, so it carries its own floor */
+.shot{display:inline-block;margin:8px 0 0;background:var(--bg);padding:5px 9px;
+  font-family:var(--mono);font-size:10px;letter-spacing:.1em;
+  text-transform:uppercase;color:var(--muted)}
+
+@media(min-width:820px){
+  .hero{grid-template-columns:304px 1fr;column-gap:32px;align-items:start}
+  .hero-head{grid-column:1/-1;grid-row:1}
+  .hero-aside{display:grid;grid-column:1;grid-row:2;gap:22px}
+  .hero-photo{order:0;margin:0}
+  .hero-body{order:0;grid-column:2;grid-row:2;margin:0;padding-top:0}
+  .card-list{margin-top:0}
+  .portrait{max-width:100%}
+}
+
+/* the facts card — n2 variant C's, kept as it was */
+.card-list{background:var(--bg);padding:20px clamp(18px,2.6vw,22px) 22px;margin-block:0;
+  border-top:0}
+.card-list > div{padding:11px 0;border-bottom:1px solid var(--hair)}
+.card-list > div:first-child{padding-top:0}
+.card-list > div:last-child{border-bottom:0;padding-bottom:0}
+.card-list dt{margin:0 0 4px;font-family:var(--mono);font-size:10px;letter-spacing:.13em;
+  text-transform:uppercase;color:var(--amber)}
+.card-list dd{margin:0;font-size:16px;line-height:1.5}
+.card-list dd .sub{display:block;color:var(--muted);font-size:15px}
+.card-list .row{display:flex;flex-wrap:wrap;gap:4px 12px;font-family:var(--mono);font-size:12px}
+.card-list a{color:var(--link);text-decoration:none;
+  border-bottom:1px solid rgba(10,122,138,.32);transition:.18s}
+.card-list a:hover{border-bottom-color:var(--link);background:var(--t-sky)}
+/* between 560 and 819 the card is full width, so its rows pair up */
+@media(min-width:560px) and (max-width:819px){
+  .card-list{display:grid;grid-template-columns:1fr 1fr;column-gap:30px}
+  .card-list > div{border-bottom:1px solid var(--hair);padding:11px 0}
+  .card-list > div:first-child,.card-list > div:nth-child(2){padding-top:0}
+  .card-list > div:last-child{grid-column:1/-1}
+}
+
+/* ------------------------------------------------------------- the news *
+   A dated log, newest first. The date is the mono line the facts card
+   uses for its own labels, in the same amber, and it takes a fixed column
+   on anything wide enough to hold one; under 620px it sits above its
+   entry instead of squeezing the body into forty characters.
+
+   Five are shown and the other seventeen are behind a <details>, which
+   costs no script and still works with the field asleep. The summary is
+   the .more link the rest of the site uses to hand off to another page —
+   the same gesture, pointed down the page instead of across it. */
+.news{list-style:none;margin:0;padding:0}
+.news li{padding:14px 0;display:grid;gap:2px}
+.news li + li{border-top:1px solid var(--hair)}
+@media(min-width:620px){.news li{grid-template-columns:78px 1fr;column-gap:22px;gap:0 22px}}
+.news .d{margin:0;font-family:var(--mono);font-size:11px;letter-spacing:.06em;color:var(--amber);
+  padding-top:4px;white-space:nowrap}
+.news .b{margin:0;font-size:15.5px;line-height:1.62}
+.news .b strong,.news .b b{font-weight:500}
+.news .b em{font-style:italic}
+.news .b a{color:var(--link);text-decoration:none;border-bottom:1px solid rgba(10,122,138,.32);
+  transition:.18s}
+.news .b a:hover{border-bottom-color:var(--link);background:var(--t-sky)}
+
+.rest{margin:0}
+.rest > summary{list-style:none;cursor:pointer;display:block;padding-top:6px}
+.rest > summary::-webkit-details-marker{display:none}
+.rest > summary::marker{content:""}
+.rest .hide{display:none}
+.rest[open] .show{display:none}
+.rest[open] .hide{display:inline}
+.rest .news{margin-top:16px;border-top:1px solid var(--hair)}
+
+/* -------------------------------------------------------- the interests *
+   The interests page lays the same material out by period, five
+   rectangles deep. Here it is one block and one dimension: what she is
+   interested in, marked where she is working on it now. Same chip, same
+   mark, same hues as that page — the reader who follows the link should
+   recognise the pieces, only rearranged.
+
+   The chip and its marked variant are lifted from the phase rectangles
+   unchanged, including the measured colours: chip text is --text on
+   white at 17.06:1, the marked chip is the venue tag's amber on butter. */
+.topic-block{padding:18px clamp(16px,2.4vw,22px) 20px}
+.topics{display:flex;flex-wrap:wrap;gap:7px;margin:0;padding:0;list-style:none}
+.topics li{font-family:var(--mono);font-size:11.5px;line-height:1.5;padding:5px 10px;
+  background:var(--card);border:1px solid var(--border);color:var(--text)}
+.topics li.mark{background:var(--t-butter);border-color:var(--brass);color:var(--amber);
+  font-weight:500}
+
+/* ---- entity highlighting in prose: institutions / programmes / people ---- */
+.ent{font-weight:600;padding:0 .18em;border-radius:3px;
+     box-decoration-break:clone;-webkit-box-decoration-break:clone}
+.ent-inst{color:#096B79;background:rgba(10,122,138,.13)}
+.ent-prog{color:#815818;background:rgba(154,92,18,.15)}
+@media (prefers-contrast: more){.ent{background:none;text-decoration:underline}}
+.pip{display:inline-block;width:.34em;height:.34em;margin-left:.14em;vertical-align:.06em;background:var(--mint);border-radius:1px}
+
+
+/* interests: now / carried forward / next — nothing is struck out */
+.st-now {background:var(--t-butter);border-color:var(--brass);color:var(--amber);font-weight:500}
+.st-done{background:var(--card);border-color:var(--border);color:var(--text)}
+.st-next{background:var(--t-sky);border-color:var(--sky);color:var(--link);font-weight:500}
+.legend{display:flex;flex-wrap:wrap;gap:7px;margin:14px 0 18px;padding:0}
+.legend .st{font-family:var(--mono);font-size:11.5px;line-height:1.5;padding:5px 10px;border:1px solid}
+/* the card link row stays on one line */
+.card-list .row{flex-wrap:nowrap;white-space:nowrap;gap:0 10px;font-size:11.5px}
+@media(max-width:420px){.card-list .row{flex-wrap:wrap;gap:4px 10px}}
+/* 2 · lift the greeting and the block under it */
+.hero-head{padding-top:clamp(14px,2.4vw,26px);padding-bottom:clamp(18px,2.6vw,24px)}
+main{padding-top:14px}
+/* the chip colours must out-specify .topics li */
+.topics li.st-now {background:var(--t-butter);border-color:var(--brass);color:var(--amber);font-weight:500}
+.topics li.st-done{background:var(--card);border-color:var(--border);color:var(--text)}
+.topics li.st-next{background:var(--t-sky);border-color:var(--sky);color:var(--link);font-weight:500}
+/* 1 · lift the card, no rule above it */
+.card-list{padding-top:0;margin-top:-4px}
+.colophon{max-width:32rem}
+.tgroup + .tgroup{margin-top:16px;padding-top:14px;border-top:1px solid var(--hair)}
+.tg{margin:0 0 8px;font-family:var(--mono);font-size:10px;letter-spacing:.13em;
+    text-transform:uppercase;color:var(--muted);font-weight:400}
+
+/* uniform gap between the page heading and what follows; tighter blocks */
+header.sheet{padding-bottom:clamp(14px,2vw,20px)}
+header.sheet h1{margin-bottom:0}
+header.sheet + .sheet{padding-top:clamp(18px,2.4vw,26px)}
+.cards{gap:10px}
+.cards.entries{gap:10px}
+.cvrow{margin-top:2px}
+.cvrow a{font-family:var(--mono);font-size:12px;color:var(--amber);text-decoration:none;
+  border-bottom:1px solid rgba(154,92,18,.4);padding-bottom:2px}
+.cvrow a:hover{border-bottom-color:var(--amber)}
+.card-list .loc{margin-top:6px;font-family:var(--sans);font-size:12.5px;letter-spacing:0;text-transform:none;color:var(--muted);white-space:nowrap}
+.card-list .loc span{margin-right:4px}
+
+/* ---------------------------------------------------------------- print */
+/* The .sig footer is a flex row that wraps; without this it splits across a
+   page break and orphans its last span onto a sheet of its own (observed on
+   /career/, which printed a near-blank 7th page). The field is ornament and
+   only ever paints on page 1, so it is dropped rather than spent in ink. */
+@media print{
+  #life{display:none}
+  /* --vent exists to let the field show between sheets. The field is hidden
+     above, so the gaps have nothing to reveal and only cost vertical space. */
+  .sheet{margin-bottom:0}
+  .sig{page-break-inside:avoid;break-inside:avoid}
+  footer.sheet{page-break-inside:avoid;break-inside:avoid;padding-top:10px}
+}
+</style>
+</head>
+<body>
+<a class="skip" href="#main">Skip to content</a>
+<canvas id="life" aria-hidden="true"></canvas>
+
+<header class="bar"><div class="bar-in">
+  <a class="bar-name" href="/">Hanna Shcharbakova</a>
+  <nav class="bar-nav" aria-label="Primary">
+    <a href="/" class="on" aria-current="page">Home</a>
+    <a href="/career/">Career</a>
+    <a href="/interests/">Interests</a>
+    <a href="/publications/">Publications</a>
+    <a href="/projects/">Additional Projects</a>
+  </nav>
+</div></header>
+
+<main id="main" tabindex="-1">
+
+<header class="sheet">
+  <p class="eyebrow">Hanna Shcharbakova &middot; 404</p>
+  <h1>Not found</h1>
+  <p class="para" style="margin-top:16px">That page does not exist. Try <a href="/">home</a>, <a href="/career/">career</a>, <a href="/interests/">interests</a>, <a href="/publications/">publications</a> or <a href="/projects/">additional projects</a>.</p>
+</header>
+
+</main>
+
+<footer class="sheet tight">
+  <p class="sig"><span>© 2026 Hanna Shcharbakova</span><span>Built with Claude</span><span><a href="mailto:hanna.shcharbakova@tum.de">hanna.shcharbakova@tum.de</a></span><span>updated 08-2026</span></p>
+</footer>
+
+<script>
+/* ==================================================================== *
+ *  THE FIELD — Conway's Game of Life, B3/S23, wrapped at the edges.
+ *
+ *  Own implementation; the rules are public domain. It is still by
+ *  default and runs only under the hand: one frame is painted on load
+ *  with no loop scheduled, a pointer move wakes it and lights a few
+ *  cells in its path, and a second of stillness eases it back to rest.
+ *
+ *  Two departures from a textbook soup, both for looks not fidelity:
+ *    · the initial density is high enough that the board settles into
+ *      real ash instead of dying on the first generation, and
+ *    · a small patch is reseeded now and then so new shapes keep
+ *      arriving and the field never goes quiet.
+ *  A cell keeps the colour its square was assigned at seeding, so the
+ *  palette drifts in slow regions instead of strobing.
+ *
+ *  Identical on all six pages.
+ * ==================================================================== */
+(function(){
+'use strict';
+
+var cv = document.getElementById('life');
+if(!cv || !cv.getContext) return;
+var ctx = cv.getContext('2d');
+if(!ctx) return;
+
+var PAL   = ['#A9D8C0','#A9D3E8','#C9BBE8','#F2C9A8','#EFB8C0','#F0E2A8'];
+var ALPHA = 0.56;      /* over #F6F5F1 — present, never loud */
+var BASE  = 18;        /* nominal cell size in CSS px        */
+var MAX   = 11000;     /* hard cap on cells, whatever the viewport */
+var SEED  = 0.30;      /* a proper soup; 3% dies on generation one */
+var STEP_EVERY = 12;   /* frames between generations (~5/s at 60fps) */
+var SOW_EVERY  = 10;   /* generations between reseed attempts */
+var SOW_CHANCE = 0.55;
+var IDLE   = 1300;     /* ms of stillness before the field settles back */
+var EASE_AT= 0.40;     /* fraction of IDLE after which it starts slowing */
+
+var cell, cols, rows, cur, nxt, hue, W, H, dpr;
+var gen = 0, raf = 0, dirty = true, acc = 0;
+var lastMove = -1e9, tgx = -1, tgy = -1;
+
+var mq = window.matchMedia ? window.matchMedia('(prefers-reduced-motion: reduce)') : null;
+function still(){ return !!(mq && mq.matches); }
+
+function build(){
+  dpr = Math.min(2, window.devicePixelRatio || 1);
+  W = window.innerWidth; H = window.innerHeight;
+
+  /* a narrow screen leaves only a 14px margin beside the sheets, so the
+     cells shrink to fit a whole square into it rather than a sliver */
+  cell = W < 620 ? 13 : BASE;
+  while(Math.ceil(W/cell) * Math.ceil(H/cell) > MAX) cell += 2;
+  cols = Math.ceil(W/cell); rows = Math.ceil(H/cell);
+
+  cv.width = Math.round(W*dpr); cv.height = Math.round(H*dpr);
+  cv.style.width = W+'px'; cv.style.height = H+'px';
+  ctx.setTransform(dpr,0,0,dpr,0,0);
+
+  var n = cols*rows, i;
+  cur = new Uint8Array(n); nxt = new Uint8Array(n); hue = new Uint8Array(n);
+  for(i=0;i<n;i++){
+    hue[i] = (Math.random()*PAL.length)|0;
+    if(Math.random() < SEED) cur[i] = 1;
+  }
+  dirty = true;
+}
+
+/* one generation, toroidal */
+function step(){
+  var x, y, i, up, dn, lf, rt, n, c;
+  for(y=0;y<rows;y++){
+    up = ((y-1+rows)%rows)*cols;
+    dn = ((y+1)%rows)*cols;
+    var md = y*cols;
+    for(x=0;x<cols;x++){
+      lf = (x-1+cols)%cols; rt = (x+1)%cols;
+      n = cur[up+lf] + cur[up+x] + cur[up+rt]
+        + cur[md+lf]             + cur[md+rt]
+        + cur[dn+lf] + cur[dn+x] + cur[dn+rt];
+      i = md+x; c = cur[i];
+      nxt[i] = c ? ((n===2||n===3) ? 1 : 0) : (n===3 ? 1 : 0);
+    }
+  }
+  var t = cur; cur = nxt; nxt = t;
+  dirty = true;
+}
+
+/* a 5x5 patch at half density, so the board keeps being given something
+   to do without anyone appearing to steer it */
+function sow(){
+  var px = (Math.random()*cols)|0, py = (Math.random()*rows)|0, dx, dy, i;
+  for(dy=0; dy<5; dy++) for(dx=0; dx<5; dx++){
+    if(Math.random() < 0.5){
+      i = ((py+dy)%rows)*cols + ((px+dx)%cols);
+      cur[i] = 1; hue[i] = (Math.random()*PAL.length)|0;
+    }
+  }
+  dirty = true;
+}
+
+/* one pass per colour keeps fillStyle changes down to six a frame */
+function paint(){
+  ctx.clearRect(0,0,W,H);
+  ctx.globalAlpha = ALPHA;
+  var k, x, y, i, md, s = cell-2;
+  for(k=0;k<PAL.length;k++){
+    ctx.fillStyle = PAL[k];
+    for(y=0;y<rows;y++){
+      md = y*cols;
+      for(x=0;x<cols;x++){
+        i = md+x;
+        if(cur[i] && hue[i]===k) ctx.fillRect(x*cell+1, y*cell+1, s, s);
+      }
+    }
+  }
+  ctx.globalAlpha = 1;
+  dirty = false;
+}
+
+/* ---- the loop only exists while the hand is moving ---------------- *
+ *  At rest there is no rAF scheduled at all: the board is one painted
+ *  frame and costs nothing. A pointer move wakes it; a second of
+ *  stillness puts it back. The last part of that second is spent
+ *  slowing the generations down rather than cutting them off, so the
+ *  field comes to rest instead of freezing mid-step.
+ * ------------------------------------------------------------------ */
+function loop(){
+  var idle = now() - lastMove;
+  if(idle > IDLE){ if(dirty) paint(); raf = 0; return; }   /* settled */
+  raf = requestAnimationFrame(loop);
+
+  var t = idle/IDLE;
+  var slow = t < EASE_AT ? 1 : 1 + 3*((t-EASE_AT)/(1-EASE_AT));
+  acc += 1/(STEP_EVERY*slow);
+  if(acc >= 1){
+    acc = 0; step(); gen++;
+    if(gen % SOW_EVERY === 0 && Math.random() < SOW_CHANCE) sow();
+  }
+  if(dirty) paint();
+}
+function start(){
+  if(raf || still()) return;
+  acc = 0.92;                      /* so the first generation lands at once */
+  raf = requestAnimationFrame(loop);
+}
+function stop(){ if(raf){ cancelAnimationFrame(raf); raf = 0; } }
+function now(){ return (window.performance && performance.now) ? performance.now() : Date.now(); }
+
+/* a few cells lit under the cursor, so the movement leaves a trail and
+   the causation is obvious. Only when the pointer crosses into a new
+   cell, otherwise a pause mid-sweep blooms into a blob. */
+function trail(px, py){
+  var gx = Math.floor(px/cell), gy = Math.floor(py/cell), k, dx, dy, i;
+  if(gx === tgx && gy === tgy) return;
+  tgx = gx; tgy = gy;
+  for(k=0;k<3;k++){
+    dx = ((Math.random()*5)|0)-2; dy = ((Math.random()*5)|0)-2;
+    i = (((gy+dy)%rows+rows)%rows)*cols + (((gx+dx)%cols+cols)%cols);
+    cur[i] = 1; hue[i] = (Math.random()*PAL.length)|0;
+  }
+  dirty = true;
+}
+function wake(px, py){
+  if(still()) return;              /* reduced motion never animates */
+  lastMove = now();
+  if(px !== undefined && cell) trail(px, py);
+  start();
+}
+
+/* A fresh soup is a wall of noise, and it takes a few seconds to become
+   Life. Run those generations before anyone sees them: the page opens on
+   a settled board of blocks, beehives and blinkers — one painted frame,
+   no loop. Cheap: a few tens of passes over a few thousand cells. */
+function settle(gens){
+  for(var g=0; g<gens; g++) step();
+  paint();
+}
+
+function boot(){
+  stop(); build(); settle(still() ? 70 : 45);
+}
+
+var rid;
+window.addEventListener('resize', function(){
+  clearTimeout(rid);
+  rid = setTimeout(function(){
+    if(Math.abs(window.innerWidth-W) < 2 && Math.abs(window.innerHeight-H) < 2) return;
+    boot();
+  }, 220);
+}, {passive:true});
+
+window.addEventListener('pointermove', function(e){ wake(e.clientX, e.clientY); }, {passive:true});
+/* Touch has no hover, and a tap should not set the page going. Scrolling
+   is what a phone actually does, so that is what wakes it there — and it
+   wakes the wheel on a desktop too, which is consistent. */
+window.addEventListener('scroll', function(){ wake(); }, {passive:true});
+
+/* no work at all in a background tab */
+document.addEventListener('visibilitychange', function(){ if(document.hidden) stop(); });
+if(mq && mq.addEventListener) mq.addEventListener('change', boot);
+
+boot();
+})();
+</script>
+<script data-goatcounter="https://aniezka.goatcounter.com/count"
+        async src="//gc.zgo.at/count.js"></script>
+</body>
+</html>
