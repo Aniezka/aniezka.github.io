@@ -388,6 +388,14 @@ header.sheet + .sheet{padding-top:clamp(18px,2.4vw,26px)}
       Ivan Yamshchikov, Anastasia Stasenko</p>
     <div class="meta"><span class="venue">NeurIPS 2026</span>
       <a href="https://arxiv.org/abs/2609.37891">arXiv</a><a href="https://huggingface.co/datasets/PleIAs/SYNTH">Dataset</a></div>
+
+    <details class="figfold">
+      <summary>Open for a bit more detail</summary>
+      <figure class="pubfig">
+      <img src="/images/neurips2026.png" alt="Two-panel pipeline diagram. Stage 1, auxiliary model creation: an LLM generates queries, reasoning traces and answers from Wikipedia paragraphs, and this data fine-tunes a query model and a reasoning model, with an embedding model pairing queries with paragraphs. Stage 2, generating pre-training data at scale: the query and reasoning models produce queries, reasoning traces and answers from Wikipedia paragraphs, which train the final pre-trained model." loading="lazy" decoding="async">
+      <figcaption>Figure 1: SYNTH pipeline for the memorization task. At Stage 1, auxiliary models are fine-tuned on LLM-generated data. At Stage 2, these models are used to produce synthetic training data at scale.</figcaption>
+    </figure>
+    </details>
   </article>
 </section>
 
